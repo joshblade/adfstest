@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "assetLocation": {
+            "value": "eastus"
+        },
+        "adminUsername":{
+            "value": "devopsadmin"
+        },
+        "deploymentNumber":{
+            "value": "1"
+        },
+        "adminPassword":{
+            "value":"1qaz!QAZ1qaz!QAZ"
+        },
+        "adDomainName":{
+            "value": "burkead.net"
+        },
+        "defaultUserPassword":{
+            "value": "1qaz!QAZ1qaz!QAZ"
+        },
+        "AdfsFarmCount":{
+            "value": "1"
+        },
+        "vmSize":{
+            "value": "Standard_A1_v2"
+        },
+        "virtualNetworkAddressRange":{
+            "value": "10.0.0.0/16"
+        },
+        "adSubnetAddressRange":{
+            "value": "10.0.1.0/24"
+        },
+        "adIP":{
+            "value": "10.0.1.4"
+        },
+        "adfsIP":{
+            "value": "10.0.1.5"
+        },
+        "dmzSubnetAddressRange":{
+            "value": "10.0.2.0/24"
+        },
+        "cliSubnetAddressRange":{
+            "value": "10.0.3.0/24"
+        }
+
+
+
+    }
+
+}
